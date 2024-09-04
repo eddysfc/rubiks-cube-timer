@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Cube For A Cause!</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+    <script src="scrambleGen.js"></script>
+
+    <div id="scramble"></div>
+
+    <button onclick="printScrambles(1)">Generate a New Scramble!</button>
+
+    <script src="timer.js"></script>
+
+    <br>
+
+    <div id="timer">
+        <span id="sec">00</span>.<span id="ms">00</span>
+    </div>
+
+    <div id="indicator">Hold Space to Begin!</div>
+
+    <br>
+
+    <div id="timeCalcs">
+        <span id="mo3">mo3: -<br></span>
+        <span id="ao5">ao5: -<br></span>
+        <span id="ao12">ao12: -<br></span>
+    </div>
+
+    <br>
+
+    <div id="subheading">Previous Times:</div>
+
+    <script src="writeScramble.js"></script>
+
+    <button onclick="saveTextAsFile()">Save Previous Solves as File</button>
+
+    <div id="prevTimes"></div>
+
+</body>

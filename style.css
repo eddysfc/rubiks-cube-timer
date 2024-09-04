@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 3px;
+    font-size: 16px;
+}
+
+#scramble {
+    font-size: 32px;
+    word-spacing: 4px;
+}
+
+#timer {
+    font-size: 80px;
+}
+
+#indicator {
+    font-size: 36px;
+}
+
+#subheading {
+    font-size: 28px;
+}
+
+#prevTimes {
+    font-size: 20px;
+}
+
+#timeCalcs {
+    font-size: 24px;
+}
